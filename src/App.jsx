@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold">Expense Tracker</h1>
+      <h1 className="text-2xl font-bold">Expense Tracker App</h1>
       <ul>
         {data.map((expense, index) => (
           <li key={index} className="border p-2 mt-2">{expense.name}: ${expense.amount}</li>
